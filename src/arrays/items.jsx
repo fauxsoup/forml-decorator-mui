@@ -52,7 +52,6 @@ function Items(props, ref) {
   return (
     <Paper
       className={clsx(classes.root, {
-        [classes.open]: open,
         [classes.disablePadding]: disablePadding,
         [classes.disableGutters]: disableGutters,
       })}
